@@ -3,85 +3,119 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CountCal privacy policy in English and Simplified Chinese.">
+  <meta name="description" content="CountCal privacy policy in English, Simplified Chinese, and Traditional Chinese.">
   <meta name="robots" content="index,follow">
   <title>Privacy Policy · CountCal</title>
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
   <header class="shell">
-    <a class="brand" href="../">CountCal · 点历</a>
+    <a class="brand" href="../">CountCal · 点历 · 點曆</a>
     <nav aria-label="Page navigation">
       <a href="#english">English</a>
-      <a href="#chinese" lang="zh-Hans">简体中文</a>
-      <a href="../support/">Support · 支持</a>
+      <a href="#simplified" lang="zh-Hans">简体中文</a>
+      <a href="#traditional" lang="zh-Hant">繁體中文</a>
+      <a href="../support/">Support · 支持 · 支援</a>
     </nav>
   </header>
   <main class="shell">
     <article class="document" id="english" lang="en">
       <p class="eyebrow">English</p>
       <h1>CountCal Privacy Policy</h1>
-      <p class="meta">Effective date: August 14, 2026<br>Operator: YT<br>Contact: <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a></p>
-      <p>CountCal respects your privacy. This policy explains how CountCal 1.0.2 handles information.</p>
+      <p class="meta">Effective date: August 24, 2026<br>Applies to: CountCal 1.1.0 and later<br>Operator: YT<br>Contact: <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a></p>
 
-      <h2>Data Handling</h2>
-      <p>CountCal doesn’t require an account, include advertising or third-party analytics SDKs, or track your activity across other apps or websites.</p>
-      <p>The trackers, date records, quotas, and reminder rules you create are stored in the app container on your iPhone. CountCal doesn’t upload this content to developer servers. Device backups may include app data, depending on your iPhone and iCloud backup settings.</p>
+      <h2>Privacy overview</h2>
+      <p>CountCal does not require a developer-operated account, contain advertising or third-party analytics SDKs, or track activity across other apps or websites.</p>
+
+      <h2>Device and iCloud data</h2>
+      <p>The trackers, date records, quotas, and reminder rules you create are stored on your device. When you are signed in to iCloud and the service is available, this data syncs between your devices through your private Apple CloudKit database.</p>
+      <p>Apple operates iCloud and CloudKit. CountCal does not send this content to a developer-operated server, and the developer cannot access records in your private CloudKit database. App preferences, system notification permission, and scheduled notifications are managed separately on each device and do not sync through CloudKit.</p>
+      <p>CountCal can continue to work with the locally available copy while a device is offline. Changes may take time to appear on another device after connectivity returns.</p>
 
       <h2>Notifications</h2>
-      <p>CountCal requests notification permission only when you save a tracker with reminders enabled or tap Enable Notifications in Settings. Local notifications are scheduled by iOS. Turning off notifications doesn’t affect date records or statistics.</p>
-      <p>Notifications use generic content by default and don’t show tracker names or quotas. You can choose to show tracker details in Settings. iOS controls notification previews on the Lock Screen and in Notification Center.</p>
+      <p>CountCal requests notification permission only after you enable notifications or save a tracker with a reminder enabled. Reminder rules can sync through CloudKit, but each device schedules notifications according to its own permission and system settings.</p>
+      <p>Notifications use generic content by default and do not show tracker names or quotas. You can choose to show tracker details in CountCal Settings. Lock Screen and notification preview behavior remains controlled by each device's system settings.</p>
 
-      <h2>Retention and Deletion</h2>
-      <p>Data remains on the device until you delete a tracker, delete all on-device data in Settings, or delete the app. Deleting the app removes its on-device data; offloading the app may retain documents and data. Copies in device backups are managed by your system backup settings.</p>
-      <p>Delete All Data clears trackers, date records, reminder rules, app preferences, and CountCal notifications. It doesn’t change notification permission or device backups managed by iOS.</p>
+      <h2>Retention and deletion</h2>
+      <p>You can delete an individual tracker or choose Delete All Data in CountCal Settings. Deletions of trackers, date records, quotas, and reminder rules sync to your other devices when iCloud is available; propagation may be delayed while offline. Delete All Data also resets CountCal preferences and cancels CountCal notifications on the device where you perform the action. It does not change the system notification authorization.</p>
+      <p>Deleting CountCal from one device removes that device's local app data, but does not by itself delete data already stored in your private iCloud database or on another device. Reinstalling the app while using the same Apple Account may restore synced data. Device backups and retained app data are managed by Apple and your system settings.</p>
 
-      <h2>Data Export</h2>
-      <p>You can export your on-device data as a readable JSON file. CountCal creates a copy only when you choose to export. You control where the file is saved or shared and how it is handled afterward.</p>
+      <h2>Data export</h2>
+      <p>You can export the data currently visible on a device as a readable JSON file. CountCal creates the export only when you request it. You choose where the file is saved or shared and are responsible for how it is handled afterward.</p>
 
-      <h2>Third Parties and Network Services</h2>
-      <p>CountCal doesn’t sell or share your trackers or date records with third parties. The current version has no account system, cloud sync, third-party advertising, or analytics services.</p>
-      <p>If you voluntarily contact support by email, the operator processes the information you provide only to respond and resolve the issue.</p>
-      <p>This privacy policy and the support page are hosted on GitHub Pages. When you visit these pages, GitHub may process technical information such as your IP address, browser information, and request logs to deliver and secure the service, according to the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>. YT does not add analytics, advertising, or tracking cookies to these pages.</p>
+      <h2>Third parties and network services</h2>
+      <p>CountCal does not sell or share your trackers or date records with advertisers, data brokers, or analytics providers. The app has no developer-operated sign-in system, data server, advertising service, or analytics service. Apple processes private CloudKit data to provide iCloud synchronization under Apple's terms and privacy policies.</p>
+      <p>If you contact support by email, the operator uses the information you provide only to respond and resolve the issue.</p>
+      <p>This privacy policy and the support page are hosted on GitHub Pages. GitHub may process technical request information to operate and secure that service under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>. YT does not add advertising, analytics, or tracking cookies to these pages.</p>
 
-      <h2>Policy Updates</h2>
-      <p>If CountCal’s data-handling practices change, this policy will be updated and, when appropriate, explained in the app or on its product page.</p>
-
-      <h2>Contact</h2>
-      <p>Questions about this policy can be sent to <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a>.</p>
+      <h2>Policy updates and contact</h2>
+      <p>This policy will be updated if CountCal's data-handling practices change. Questions can be sent to <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a>.</p>
     </article>
 
-    <article class="document" id="chinese" lang="zh-Hans">
+    <article class="document" id="simplified" lang="zh-Hans">
       <p class="eyebrow">简体中文</p>
       <h1>点历隐私政策</h1>
-      <p class="meta">生效日期：2026-08-14<br>运营者：YT<br>联系邮箱：<a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a></p>
-      <p>点历重视你的隐私。本政策说明点历 1.0.2 如何处理信息。</p>
+      <p class="meta">生效日期：2026 年 8 月 24 日<br>适用版本：点历 1.1.0 及以后版本<br>运营者：YT<br>联系邮箱：<a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a></p>
 
-      <h2>数据处理</h2>
-      <p>点历不要求账号，不包含广告或第三方分析 SDK，也不会跟踪你在其他 App 或网站中的活动。</p>
-      <p>你创建的项目、日期记录、配额和提醒规则保存在 iPhone 的 App 容器中。点历不会把这些内容上传到开发者服务器。系统设备备份可能包含 App 数据，具体取决于你的 iPhone 与 iCloud 备份设置。</p>
+      <h2>隐私概述</h2>
+      <p>点历不要求注册由开发者运营的账号，不包含广告或第三方分析 SDK，也不会跟踪你在其他 App 或网站中的活动。</p>
+
+      <h2>设备与 iCloud 数据</h2>
+      <p>你创建的项目、日期记录、配额和提醒规则保存在设备上。当你已登录 iCloud 且服务可用时，这些数据会通过你的 Apple CloudKit 私人数据库，在使用同一 Apple 账号的设备间自动同步。</p>
+      <p>iCloud 与 CloudKit 由 Apple 运营。点历不会把这些内容发送到开发者运营的服务器，开发者也无法访问你的私人 CloudKit 数据库记录。App 偏好、系统通知权限和已经安排的通知由每台设备分别管理，不通过 CloudKit 同步。</p>
+      <p>设备离线时，点历仍可使用本机已有的数据副本。恢复网络后，更改可能需要一段时间才会出现在其他设备上。</p>
 
       <h2>通知</h2>
-      <p>只有当你保存已开启提醒的项目，或在设置中点按“开启通知”时，点历才会请求通知权限。本地通知由 iOS 安排。关闭通知权限不会影响日期记录和统计功能。</p>
-      <p>通知默认使用通用内容，不显示项目名称或额度。你可以在设置中选择显示项目详情；锁屏和通知中心的通知预览方式由 iOS 系统设置控制。</p>
+      <p>只有当你主动开启通知，或保存已开启提醒的项目时，点历才会请求通知权限。提醒规则可以通过 CloudKit 同步，但每台设备会根据本机的通知权限和系统设置分别安排通知。</p>
+      <p>通知默认使用通用内容，不显示项目名称或额度。你可以在点历设置中选择显示项目详情；锁屏和通知预览方式仍由每台设备的系统设置控制。</p>
 
       <h2>数据保留与删除</h2>
-      <p>数据会保留在设备上，直到你删除项目、在设置中删除全部本机数据，或删除 App。删除 App 会移除本机 App 数据；卸载 App 可能保留文稿与数据。设备备份中的副本由系统备份设置管理。</p>
-      <p>“删除全部数据”会清除项目、日期记录、提醒规则、App 偏好和点历通知，但不会更改由 iOS 管理的通知权限或设备备份。</p>
+      <p>你可以删除单个项目，也可以在点历设置中选择“删除全部数据”。项目、日期记录、配额和提醒规则的删除会在 iCloud 可用时同步到其他设备；设备离线时，删除传播可能延后。“删除全部数据”还会在执行操作的设备上重置点历偏好并取消点历通知，但不会更改系统通知授权。</p>
+      <p>从一台设备删除点历，只会移除该设备上的本机 App 数据，并不会自动删除已经保存在私人 iCloud 数据库或其他设备上的数据。使用同一 Apple 账号重新安装后，同步数据可能再次出现。设备备份及系统保留的 App 数据由 Apple 和你的系统设置管理。</p>
 
       <h2>数据导出</h2>
-      <p>你可以把本机数据导出为可读的 JSON 文件。点历只会在你主动导出后创建副本；文件的保存位置、共享目的地及其后续处理由你选择和管理。</p>
+      <p>你可以把当前设备上可见的数据导出为可读的 JSON 文件。点历只会在你主动导出后创建文件；保存位置、共享目的地及后续处理由你选择和管理。</p>
 
       <h2>第三方与网络服务</h2>
-      <p>点历不会向第三方出售或共享你的项目与日期记录。当前版本不包含登录、云同步、第三方广告或分析服务。</p>
-      <p>如果你通过支持邮箱主动发送信息，运营者只会为回复与解决问题而处理你提供的内容。</p>
-      <p>本隐私政策及支持页面托管于 GitHub Pages。访问这些页面时，GitHub 可能会依照其 <a href="https://docs.github.com/zh/site-policy/privacy-policies/github-general-privacy-statement">GitHub 通用隐私声明</a>，处理 IP 地址、浏览器信息和请求日志等技术信息，以提供并保障托管服务。YT 未在这些页面中添加分析、广告或跟踪 Cookie。</p>
+      <p>点历不会向广告商、数据经纪商或分析服务提供商出售或共享你的项目与日期记录。App 不包含开发者运营的登录系统、数据服务器、广告服务或分析服务。Apple 会按照其条款与隐私政策处理私人 CloudKit 数据，以提供 iCloud 同步服务。</p>
+      <p>如果你通过支持邮箱主动发送信息，运营者只会为回复和解决问题而使用你提供的内容。</p>
+      <p>本隐私政策及支持页面托管于 GitHub Pages。GitHub 可能会按照 <a href="https://docs.github.com/zh/site-policy/privacy-policies/github-general-privacy-statement">GitHub 通用隐私声明</a>处理技术请求信息，以提供和保护托管服务。YT 未在这些页面中添加广告、分析或跟踪 Cookie。</p>
 
-      <h2>政策更新</h2>
-      <p>如果点历的数据处理方式发生变化，本政策会同步更新，并在适用时通过 App 或产品页说明。</p>
+      <h2>政策更新与联系</h2>
+      <p>如果点历的数据处理方式发生变化，本政策会同步更新。如有疑问，请发送邮件至 <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a>。</p>
+    </article>
 
-      <h2>联系我们</h2>
-      <p>如对本政策有疑问，请联系：<a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a>。</p>
+    <article class="document" id="traditional" lang="zh-Hant">
+      <p class="eyebrow">繁體中文</p>
+      <h1>點曆私隱政策</h1>
+      <p class="meta">生效日期：2026 年 8 月 24 日<br>適用版本：點曆 1.1.0 及之後版本<br>營運者：YT<br>聯絡電郵：<a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a></p>
+
+      <h2>私隱概述</h2>
+      <p>點曆不要求註冊由開發者營運的帳戶，不包含廣告或第三方分析 SDK，也不會追蹤你在其他 App 或網站上的活動。</p>
+
+      <h2>裝置與 iCloud 資料</h2>
+      <p>你建立的項目、日期紀錄、配額和提醒規則會儲存在裝置上。當你已登入 iCloud 且服務可用時，這些資料會透過你的 Apple CloudKit 私人資料庫，在使用同一 Apple 帳戶的裝置之間自動同步。</p>
+      <p>iCloud 與 CloudKit 由 Apple 營運。點曆不會把這些內容傳送至開發者營運的伺服器，開發者亦無法存取你的私人 CloudKit 資料庫紀錄。App 偏好、系統通知權限和已排定的通知由每部裝置分別管理，不會透過 CloudKit 同步。</p>
+      <p>裝置離線時，點曆仍可使用裝置上已有的資料副本。恢復連線後，變更可能需要一段時間才會顯示於其他裝置。</p>
+
+      <h2>通知</h2>
+      <p>只有當你主動開啟通知，或儲存已啟用提醒的項目時，點曆才會要求通知權限。提醒規則可以透過 CloudKit 同步，但每部裝置會按本機的通知權限和系統設定分別排定通知。</p>
+      <p>通知預設使用通用內容，不會顯示項目名稱或配額。你可在點曆設定中選擇顯示項目詳情；鎖定畫面及通知預覽方式仍由每部裝置的系統設定控制。</p>
+
+      <h2>資料保留與刪除</h2>
+      <p>你可以刪除個別項目，亦可在點曆設定中選擇「刪除所有資料」。項目、日期紀錄、配額和提醒規則的刪除會在 iCloud 可用時同步至其他裝置；裝置離線時，刪除傳播可能延遲。「刪除所有資料」亦會在執行操作的裝置上重設點曆偏好並取消點曆通知，但不會更改系統通知授權。</p>
+      <p>從一部裝置刪除點曆，只會移除該裝置上的本機 App 資料，並不會自動刪除已儲存在私人 iCloud 資料庫或其他裝置上的資料。使用同一 Apple 帳戶重新安裝後，同步資料可能再次出現。裝置備份及系統保留的 App 資料由 Apple 和你的系統設定管理。</p>
+
+      <h2>資料匯出</h2>
+      <p>你可以將目前裝置上可見的資料匯出為可讀的 JSON 檔案。點曆只會在你主動匯出後建立檔案；儲存位置、分享目的地及後續處理由你選擇和管理。</p>
+
+      <h2>第三方與網絡服務</h2>
+      <p>點曆不會向廣告商、資料經紀商或分析服務供應商出售或分享你的項目與日期紀錄。App 不包含開發者營運的登入系統、資料伺服器、廣告服務或分析服務。Apple 會按照其條款及私隱政策處理私人 CloudKit 資料，以提供 iCloud 同步服務。</p>
+      <p>如果你透過支援電郵主動提供資料，營運者只會為回覆及解決問題而使用相關內容。</p>
+      <p>本私隱政策及支援頁面託管於 GitHub Pages。GitHub 可能會按照 <a href="https://docs.github.com/zh/site-policy/privacy-policies/github-general-privacy-statement">GitHub 一般私隱聲明</a>處理技術請求資料，以提供及保護託管服務。YT 未在這些頁面加入廣告、分析或追蹤 Cookie。</p>
+
+      <h2>政策更新與聯絡</h2>
+      <p>如果點曆的資料處理方式有變，本政策會相應更新。如有疑問，請電郵至 <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a>。</p>
     </article>
   </main>
   <footer class="shell">© 2026 YT · CountCal</footer>
