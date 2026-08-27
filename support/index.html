@@ -3,65 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CountCal support and frequently asked questions.">
+  <meta name="description" content="CountCal support in English, Simplified Chinese, and Traditional Chinese.">
   <meta name="robots" content="index,follow">
   <title>Support · CountCal</title>
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
   <header class="shell">
-    <a class="brand" href="../">CountCal · 点历</a>
+    <a class="brand" href="../">CountCal · 点历 · 點曆</a>
     <nav aria-label="Page navigation">
       <a href="#english">English</a>
-      <a href="#chinese" lang="zh-Hans">简体中文</a>
-      <a href="../privacy/">Privacy · 隐私</a>
+      <a href="#simplified" lang="zh-Hans">简体中文</a>
+      <a href="#traditional" lang="zh-Hant">繁體中文</a>
+      <a href="../privacy/">Privacy · 隐私 · 私隱</a>
     </nav>
   </header>
   <main class="shell">
     <article class="document" id="english" lang="en">
       <p class="eyebrow">English</p>
       <h1>CountCal Support</h1>
-      <p class="notice">Email <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a> for support. Include the app version, iOS version, device model, and reproduction steps. Don’t send unnecessary sensitive information.</p>
+      <p class="notice">Email <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a> for support. Include the CountCal version, operating-system version, device model, and reproduction steps. Do not send unnecessary sensitive information or screenshots that expose your Apple Account.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>Where is my data stored?</h3>
-      <p>Trackers and date records are stored locally by the app and aren’t uploaded to a developer server. The current version has no account or cloud sync; system backups may include app data, depending on your iPhone and iCloud settings.</p>
+      <p>Trackers, date records, quotas, and reminder rules are stored on your device. When iCloud is available, they sync through your private CloudKit database to your other devices using the same Apple Account. CountCal has no developer-operated account or data server, and the developer cannot access your private CloudKit records.</p>
+      <p>App preferences, system notification permission, and scheduled notifications are stored separately on each device.</p>
+
+      <h3>Why is another device not up to date?</h3>
+      <p>Confirm that both devices use the same Apple Account, iCloud is available, and CountCal is allowed to use iCloud. Leave CountCal open briefly after reconnecting. Synchronization is automatic but may not be immediate. Changes made offline should sync after service returns.</p>
 
       <h3>How do I delete my data?</h3>
-      <p>Delete an individual tracker from its editor, or choose Delete All Data in Settings. Deleting the app removes its on-device data; offloading may retain documents and data. Copies in backups are managed by your system backup settings.</p>
+      <p>Delete an individual tracker from its editor, or choose Delete All Data in Settings. Business-data deletions sync to your other devices when iCloud is available. Delete All Data also resets preferences and cancels CountCal notifications on the current device, but does not change system notification permission.</p>
+      <p>Deleting CountCal from one device does not by itself delete data stored in private iCloud or on another device. Reinstalling with the same Apple Account may restore synced data.</p>
 
-      <h3>How do I export a copy of my data?</h3>
-      <p>Open Settings, choose Data Management, then Export a Copy of Your Data. CountCal creates a readable JSON file and lets you choose where to save or share it.</p>
+      <h3>How do I export a copy?</h3>
+      <p>Open Settings, choose Data Management, then Export a Copy of Your Data. CountCal exports the data currently visible on that device as a readable JSON file and lets you choose where to save or share it.</p>
 
-      <h3>Why didn’t a reminder arrive?</h3>
-      <p>Check notification status in CountCal Settings and confirm that notifications are allowed in iOS Settings. Focus modes and Notification Summary may also affect delivery time.</p>
-      <p>Notifications hide tracker names and quotas by default. You can change this in CountCal Settings; Lock Screen previews are controlled separately by iOS.</p>
+      <h3>Why did a reminder not arrive?</h3>
+      <p>Check notification status in CountCal Settings and confirm that notifications are allowed in system settings on that device. Focus modes and notification summaries may affect delivery. Reminder rules can sync, but notification permission and scheduling are device-specific.</p>
+      <p>Notifications hide tracker names and quotas by default. You can change this in CountCal Settings; Lock Screen previews are controlled separately by the operating system.</p>
 
-      <h3>Can totals be used as tax or visa evidence?</h3>
-      <p>No. CountCal provides personal records only and isn’t proof of tax, visa, medical, or employment compliance.</p>
+      <h3>Can totals be used as compliance evidence?</h3>
+      <p>No. CountCal is for personal recordkeeping and is not proof of tax, visa, medical, or employment compliance.</p>
     </article>
 
-    <article class="document" id="chinese" lang="zh-Hans">
+    <article class="document" id="simplified" lang="zh-Hans">
       <p class="eyebrow">简体中文</p>
       <h1>点历支持</h1>
-      <p class="notice">如需支持，请发送邮件至 <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a>。请说明 App 版本、iOS 版本、设备型号和复现步骤，不要发送不必要的敏感信息。</p>
+      <p class="notice">如需支持，请发送邮件至 <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a>。请说明点历版本、操作系统版本、设备型号和复现步骤。不要发送不必要的敏感信息，也不要提供会暴露 Apple 账号的截图。</p>
 
       <h2>常见问题</h2>
       <h3>数据保存在哪里？</h3>
-      <p>项目与日期记录由 App 保存在这台 iPhone 上，不上传至开发者服务器。当前版本不提供账号或云同步；系统备份可能按你的 iPhone 与 iCloud 设置包含 App 数据。</p>
+      <p>项目、日期记录、配额和提醒规则保存在设备上。iCloud 可用时，它们会通过你的 CloudKit 私人数据库，同步到使用同一 Apple 账号的其他设备。点历没有开发者运营的账号或数据服务器，开发者无法访问你的私人 CloudKit 记录。</p>
+      <p>App 偏好、系统通知权限和已经安排的通知由每台设备分别保存。</p>
+
+      <h3>为什么另一台设备没有更新？</h3>
+      <p>请确认两台设备使用同一 Apple 账号、iCloud 服务可用，并允许点历使用 iCloud。恢复网络后，可以让点历保持打开片刻。同步会自动进行，但不一定立即完成；离线期间的更改应在服务恢复后同步。</p>
 
       <h3>如何删除数据？</h3>
-      <p>你可以编辑并删除单个项目，也可以在“设置”中选择“删除全部数据”。删除 App 会移除本机 App 数据；卸载 App 可能保留文稿与数据。备份中的副本由系统备份设置管理。</p>
+      <p>你可以在编辑页面删除单个项目，也可以在设置中选择“删除全部数据”。业务数据的删除会在 iCloud 可用时同步到其他设备。“删除全部数据”还会重置当前设备上的偏好并取消点历通知，但不会更改系统通知权限。</p>
+      <p>从一台设备删除点历，不会自动删除私人 iCloud 或其他设备上的数据。使用同一 Apple 账号重新安装后，同步数据可能再次出现。</p>
 
       <h3>如何导出数据副本？</h3>
-      <p>前往“设置”→“数据管理”→“导出数据副本”。点历会生成可读的 JSON 文件，并让你选择保存或共享位置。</p>
+      <p>前往“设置”→“数据管理”→“导出数据副本”。点历会把当前设备上可见的数据导出为可读的 JSON 文件，并让你选择保存或共享位置。</p>
 
       <h3>为什么没有收到提醒？</h3>
-      <p>请在点历“设置”中检查通知状态，并在 iOS 系统设置中确认允许通知。专注模式和通知摘要也可能影响送达时间。</p>
-      <p>通知默认隐藏项目名称和额度。你可以在点历“设置”中调整；锁屏预览由 iOS 另行控制。</p>
+      <p>请在点历设置中检查通知状态，并在该设备的系统设置中确认允许通知。专注模式和通知摘要也可能影响送达。提醒规则可以同步，但通知权限和通知安排仍按设备分别管理。</p>
+      <p>通知默认隐藏项目名称和额度。你可以在点历设置中调整；锁屏预览由操作系统另行控制。</p>
 
-      <h3>日期统计能否作为税务或签证证明？</h3>
-      <p>不能。点历只提供个人记录与参考，不构成税务、签证、医疗或雇佣合规证明。</p>
+      <h3>日期统计能否作为合规证明？</h3>
+      <p>不能。点历只用于个人记录，不构成税务、签证、医疗或雇佣合规证明。</p>
+    </article>
+
+    <article class="document" id="traditional" lang="zh-Hant">
+      <p class="eyebrow">繁體中文</p>
+      <h1>點曆支援</h1>
+      <p class="notice">如需支援，請電郵至 <a href="mailto:finnertam@gmail.com">finnertam@gmail.com</a>。請註明點曆版本、作業系統版本、裝置型號及重現步驟。請勿傳送不必要的敏感資料，亦不要提供會顯示 Apple 帳戶的截圖。</p>
+
+      <h2>常見問題</h2>
+      <h3>資料儲存在哪裏？</h3>
+      <p>項目、日期紀錄、配額和提醒規則會儲存在裝置上。iCloud 可用時，這些資料會透過你的 CloudKit 私人資料庫，同步至使用同一 Apple 帳戶的其他裝置。點曆沒有由開發者營運的帳戶或資料伺服器，開發者亦無法存取你的私人 CloudKit 紀錄。</p>
+      <p>App 偏好、系統通知權限和已排定的通知由每部裝置分別儲存。</p>
+
+      <h3>為何另一部裝置尚未更新？</h3>
+      <p>請確認兩部裝置使用同一 Apple 帳戶、iCloud 服務可用，並允許點曆使用 iCloud。恢復連線後，可讓點曆保持開啟一會。同步會自動進行，但未必即時完成；離線期間的變更應在服務恢復後同步。</p>
+
+      <h3>如何刪除資料？</h3>
+      <p>你可以在編輯頁面刪除個別項目，亦可在設定中選擇「刪除所有資料」。業務資料的刪除會在 iCloud 可用時同步至其他裝置。「刪除所有資料」亦會重設目前裝置上的偏好並取消點曆通知，但不會更改系統通知權限。</p>
+      <p>從一部裝置刪除點曆，不會自動刪除私人 iCloud 或其他裝置上的資料。使用同一 Apple 帳戶重新安裝後，同步資料可能再次出現。</p>
+
+      <h3>如何匯出資料副本？</h3>
+      <p>前往「設定」→「資料管理」→「匯出資料副本」。點曆會將目前裝置上可見的資料匯出為可讀的 JSON 檔案，並讓你選擇儲存或分享位置。</p>
+
+      <h3>為何沒有收到提醒？</h3>
+      <p>請在點曆設定中檢查通知狀態，並在該裝置的系統設定中確認已允許通知。專注模式和通知摘要亦可能影響送達。提醒規則可以同步，但通知權限和通知排程仍按裝置分別管理。</p>
+      <p>通知預設隱藏項目名稱和配額。你可以在點曆設定中調整；鎖定畫面的預覽由作業系統另行控制。</p>
+
+      <h3>日期統計可否作為合規證明？</h3>
+      <p>不可以。點曆只供個人記錄，不構成稅務、簽證、醫療或僱傭合規證明。</p>
     </article>
   </main>
   <footer class="shell">© 2026 YT · CountCal</footer>
