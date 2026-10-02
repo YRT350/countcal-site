@@ -9,7 +9,3 @@ Shared app directory, product introductions, support and privacy pages in Englis
 - ChipMeter privacy: https://yrt350.github.io/countcal-site/chipmeter/privacy/
 
 The Pages workflow deploys **countcal-site.zip**. Root legacy HTML files are not the deployed website. The package preserves existing CountCal routes, assets, downloads and search verification.
-
-Website update: 2026-10-02. ChipMeter website copy describes version 1.0.0 Build 5 first-launch automatic local recording. Its Mac App Store release is still in preparation.
-
-Public pages use app names and the support email only; personal developer names and operator branding are omitted from visible copy and structured metadata.
